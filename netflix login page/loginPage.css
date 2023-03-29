@@ -49,8 +49,8 @@ body {
   color: #b3b3b3;
 }
 .link:hover {
-  text-decoration: none;
-  color: #b3b3b3;
+  text-decoration: underline;
+  color: red;
 }
 
 h1 {
