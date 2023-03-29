@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        margin: 0px;
+        background-image: url("cool-background (2).png");
+        background-image: 100%;
+      }
+      #submitCancel {
+        display: flex;
+        justify-content: space-around;
+
+        width: 250px;
+      }
+      h1 {
+        text-align: center;
+        color: red;
+        letter-spacing: 10px;
+      }
+      .forms {
+        line-height: 45px;
+        padding: 45px;
+        background-color: rgba(0, 0, 0, 0);
+        color: white;
+      }
+    </style>
+    <script>
+      function Submit() {
+        alert("successfully submitted");
+      }
+    </script>
+
+    <title>Browser</title>
+  </head>
+
+  <body>
+    <h1>REGISTRATION FORM</h1>
+    <form class="forms">
+      <div>
+        <label>Name<input type="name" /></label>
+      </div>
+      <div>
+        <label>Date Of Birth:<input type="date" /></label>
+      </div>
+      <div>
+        <label>Email<input type="email" /></label>
+      </div>
+      <div>
+        Gender
+
+        <label for="male"
+          ><input type="radio" name="gender" id="male" />male</label
+        >
+        <label for="female"
+          ><input type="radio" name="gender" id="female" />female</label
+        >
+        <label for="others"
+          ><input type="radio" name="gender" id="others" />others</label
+        >
+      </div>
+      <label
+        >Native Language
+        <select>
+          <option>tamil</option>
+          <option>hindi</option>
+          <option>telugu</option>
+          <option>kannada</option>
+          <option>malayalam</option>
+        </select></label
+      >
+      <label
+        ><div>Phone no<input type="tel" /></div
+      ></label>
+      <label
+        ><div>Door No<input type="text" /></div></label
+      ><label
+        ><div>Street name<input type="text" /></div
+      ></label>
+      <label
+        ><div>District<input type="text" /></div
+      ></label>
+      <label
+        ><div>State<input type="text" /></div
+      ></label>
+      <div id="submitCancel">
+        <button onclick="Submit()">Submit</button
+        ><button onclick="cancel()">Cancel</button>
+      </div>
+    </form>
+  </body>
+</html>
