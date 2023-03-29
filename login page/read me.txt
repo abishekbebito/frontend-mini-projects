@@ -1,1 +1,1 @@
-this is a project of netflix login page with css and html only..
+this is a project of netflix login page with css and html only..and with password validation with javascript
