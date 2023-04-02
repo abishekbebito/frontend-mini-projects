@@ -13,6 +13,7 @@ body {
 }
 .box {
   height: 50px;
+
   padding: 16px;
 }
 ::placeholder {
