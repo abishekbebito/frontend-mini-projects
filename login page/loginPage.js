@@ -22,7 +22,9 @@ function passwordValidation() {
   }
 
   if (password == 123456789 && email == "hello@gmail.com") {
+    document.getElementById("message").innerHTML = "";
     alert("password submitted");
+
     return true;
   }
 }
