@@ -1,14 +1,14 @@
 function passwordValidation() {
   var password = document.getElementById("pass").value;
   var email = document.getElementById("mailId").value;
-  var validEmail = /^[a-z0-9]+@[a-z]+.[a-z]{3}$/;
+  var validEmail = /^[a-z0-9]+@[a-z]+.[a-z]{2,3}$/;
   if (password == "" || email == "") {
     document.getElementById("message").innerHTML =
       "please fill the credentials";
     return false;
   }
   if (!validEmail.test(email)) {
-    document.getElementById("message").innerHTML = "email incorrecct formaat";
+    document.getElementById("message").innerHTML = "email incorrect format";
     return false;
   }
   if (password.length < 8) {
